@@ -1,0 +1,11 @@
+#- type: entity
+#  parent: ClothingNeckPinBase
+#  id: ClothingNeckSyndicateMedic
+#  name: Syndicate Medic Pin
+#  description: A pin to signify you as a medic for the Syndicate.
+#  components:
+#  - type: Sprite
+#    state: syndimedic
+#  - type: Clothing
+#    equippedPrefix: syndimedic
+# Removing until I can figure out why it doesnt work. Sprites are still there.

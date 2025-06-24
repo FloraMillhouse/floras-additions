@@ -125,6 +125,7 @@
     children:
     - id: BoxSyringe
     - id: BoxBeaker
+    - id: IndustrialBeaker #KS
     - id: BoxBeaker
       prob: 0.3
     - id: BoxPillCanister

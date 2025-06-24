@@ -235,6 +235,9 @@
       - id: HandLabeler
       - id: BoxTapeRecorder # DeltaV
       - id: Betty # Goobstation
+      - id: ClothingOuterCoatDiscoBlazer #KS, disco larp set
+      - id: ClothingNeckTieDisco #KS, disco larp set
+      - id: ClothingShoesBootsSnake #KS, disco larp set
 
 - type: entity
   id: ClosetBombFilled

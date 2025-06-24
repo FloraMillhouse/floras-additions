@@ -158,6 +158,7 @@
     ToyFigurineGreytider: 1
     ClothingBackpackSatchelSmugglerUnanchored: 1
     ClothingHeadHatSolidHeadband: 2
+#    ClothingNeckSyndicateMedic: 1 #KS, Show your allegience!
   # DO NOT ADD MORE, USE UNIFORM DYING
   emaggedInventory: # KS14 - Added emagged inventory
     ClothingHeadHatCentcomcap: 1

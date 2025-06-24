@@ -1,0 +1,25 @@
+- type: entity
+  name: Industrial Beaker
+  parent: BaseBeakerMetallic
+  description: A big metalic beaker, built by someone.
+  id: IndustrialBeaker
+  components:
+  - type: Spillable
+    solution: beaker
+  - type: Sprite
+    sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
+    layers:
+      - state: beaker_industrial
+  - type: Item
+    size: Normal
+    sprite: _KS14/Objects/Specific/Chemistry/beaker_industrial.rsi
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 460 #WHY 460? BECAUSE SOYIKAKA HIGH COMMAND SAID SO
+  - type: Appearance
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+  - type: StaticPrice
+    price: 20
