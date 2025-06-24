@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesAlucardGlasses
+  name: alucard's glasses.
+  description: A true vampire gangster....
+  components:
+  - type: Sprite
+    sprite: _KS14/Clothing/Eyes/Glasses/alucard.rsi
+  - type: Clothing
+    sprite: _KS14/Clothing/Eyes/Glasses/alucard.rsi
