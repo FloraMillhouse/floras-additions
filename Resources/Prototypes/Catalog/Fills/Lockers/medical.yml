@@ -39,14 +39,16 @@
     - id: ChemistryBottleEpinephrine
     - id: Brutepack
       amount: !type:ConstantNumberSelector
-        value: 3
+        value: 3 #KS
     - id: Ointment
       amount: !type:ConstantNumberSelector
-        value: 3
+        value: 3 #KS
     - id: Bloodpack
       amount: !type:ConstantNumberSelector
-        value: 3
+        value: 3 #KS
     - id: Gauze
+      amount: !type:ConstantNumberSelector
+        value: 3 #KS
 
 - type: entity
   parent: LockerMedicine
@@ -167,7 +169,7 @@
     - id: ClothingMaskSterile
     - id: HandheldGPSBasic
     - id: MedkitFilled
-      prob: 0.3
+      prob: 0.6 #KS
 
 - type: entity
   parent: LockerParamedic
@@ -190,4 +192,4 @@
       - id: ClothingMaskSterile
       - id: HandheldGPSBasic
       - id: MedkitFilled
-        prob: 0.3
+        prob: 0.6 #KS
