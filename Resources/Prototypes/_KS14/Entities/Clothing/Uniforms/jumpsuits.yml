@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGabber
   name: Gabber Tracksuit
   description: Truly russian larp....
@@ -8,3 +8,14 @@
     sprite: _KS14/Clothing/Uniform/Jumpsuits/gabber.rsi
   - type: Clothing
     sprite: _KS14/Clothing/Uniform/Jumpsuits/gabber.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitVampire
+  name: strange vampire suit
+  description: Only the smartest of them all wear this...
+  components:
+  - type: Sprite
+    sprite: _KS14/Clothing/Uniform/Jumpsuits/vampire.rsi
+  - type: Clothing
+    sprite: _KS14/Clothing/Uniform/Jumpsuits/vampire.rsi

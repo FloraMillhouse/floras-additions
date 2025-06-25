@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatVampire
+  name: strange vampire hat
+  description: let that sink in...
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/vampire_hat.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/vampire_hat.rsi

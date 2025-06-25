@@ -25,3 +25,14 @@
         Slash: 0.65
         Piercing: 0.65
         Heat: 0.7
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatVampire
+  name: strange vampire jacket
+  description: lets get this party started....
+  components:
+  - type: Sprite
+    sprite: _KS14/Clothing/OuterClothing/Coats/vampirecoat.rsi
+  - type: Clothing
+    sprite: _KS14/Clothing/OuterClothing/Coats/vampirecoat.rsi
