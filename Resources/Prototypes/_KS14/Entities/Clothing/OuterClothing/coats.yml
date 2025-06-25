@@ -27,6 +27,34 @@
         Heat: 0.7
 
 - type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
+  id: ClothingOuterCoatKimBlazer
+  name: the kitsurage
+  description: Sunrise, Parabellum.
+  components:
+  - type: Sprite
+    sprite: _KS14/Clothing/OuterClothing/Coats/thepartner.rsi
+  - type: Clothing
+    sprite: _KS14/Clothing/OuterClothing/Coats/thepartner.rsi
+  - type: StorageFill
+    contents:
+    - id: SmokingPipeFilledTobacco
+    - id: FlippoEngravedLighter
+  - type: Armor # goidamed
+    coverage:
+    - Chest
+    - Groin
+    - Tail
+    - Arm
+    - Leg
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.7
+
+- type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatVampire
   name: strange vampire jacket
