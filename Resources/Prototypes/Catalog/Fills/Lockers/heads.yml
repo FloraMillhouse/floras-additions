@@ -398,6 +398,8 @@
     # Shitmed
     - id: MedicalBiofabricatorFlatpack
     # Goobstation End
+    - id: OmnimedTool #KS14, CMO Buffs
+    - id: ClothingHandsGlovesSurgical #KS14, CMO Buffs.
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
