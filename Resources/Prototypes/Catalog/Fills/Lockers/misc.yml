@@ -299,7 +299,18 @@
       prob: 0.05
     # Recursive
     - id: ClosetMaintenanceFilledRandom
-      prob: 0.01
+      prob: 0.05 #KS14, made it sometimes happen a little bit more often
+    #KS shit from below
+    - id: ToolDebug
+      prob: 0.01 #If they find it they find it!
+    - id: MobHuman
+      prob: 0.01 #Urist Jumpscare
+    - id: GrenadeDummy
+      prob: 0.10 #Troll
+    - id: CardBoxSyndicate
+      prob: 0.15
+    - id: CowToolboxFilled
+      prob: 0.15
 
 - type: entity
   id: ClosetMaintenanceFilledRandom
