@@ -11,7 +11,7 @@
       path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+      path: /Audio/_KS14/Items/Toys/neco-arc-dori.ogg
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
