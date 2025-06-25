@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesAlucardGlasses
-  name: alucard's glasses.
+  name: strange vampire glasses #name changed due to ip reasons.
   description: A true vampire gangster....
   components:
   - type: Sprite
