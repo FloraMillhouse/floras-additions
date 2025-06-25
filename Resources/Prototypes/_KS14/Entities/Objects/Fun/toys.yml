@@ -1,0 +1,31 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieNeco
+  name: Neco-arc plushie
+  description: is that necoarc?
+  components:
+  - type: Sprite
+    state: plushie_necoarc
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/_KS14/Items/Toys/neco-arc-sound-effect.ogg
